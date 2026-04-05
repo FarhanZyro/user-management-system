@@ -1,0 +1,13 @@
+# Ignore environment / config (if you store credentials later)
+.env
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+tmp/
+cache/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
