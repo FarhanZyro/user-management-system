@@ -4,6 +4,7 @@ require 'config.php';
 if (!isset($_SESSION['user'])) {
     header("Location: login.php");
 }
+    echo "Updated from dev branch";
 ?>
 
 <h2>Welcome <?php echo $_SESSION['user']; ?></h2>
